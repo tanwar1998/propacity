@@ -471,7 +471,7 @@ const getForecastData = (data, store) => {
       let date = new Date();
       let url =  process.env.REACT_APP_WEATHER_BASE_API 
       +"forecast.json?key=" 
-      // + process.env.REACT_APP_WEATHER_API_KEY
+      + process.env.REACT_APP_WEATHER_API_KEY
       + "&q=" + data
       +"&days=5&hour="+date.getHours();
 
