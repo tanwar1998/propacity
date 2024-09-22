@@ -80,6 +80,6 @@ The `Forecast` component is hidden by default. To view the `Forecast` informatio
 
 
 Also a `Toggle` button is provided at the navigation bar, for changing the temperature unit.
-Default unit is `Celcius`, but you can switch to `Fahrenheit` by the `toggle` button
+Default unit is `Celcius`, but you can switch to `Fahrenheit` by the `toggle` button.
 
 

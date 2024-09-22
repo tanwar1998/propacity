@@ -94,5 +94,11 @@ export const ForecastContent = styled.div`
           margin-right: 20px;
         }
       }
+
+    @media only screen and (max-width: 400px){
+      .temp-content{
+        font-size: 11px;
+      }
+    }
 `;
 
