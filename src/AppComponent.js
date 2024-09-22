@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch, connect } from "react-redux";
-import { Decrement, Increment } from "./Actions/index.js";
+import { Decrement, Increment } from "./Store/Actions/index.js";
 
 
 function mapStateToProps(state) {

@@ -1,22 +1,16 @@
 import "./App.css";
-import { useSelector, useDispatch, useStore } from "react-redux";
-import { Divide, Multiply } from "./Actions/index.js";
-import AppComponent from "./AppComponent";
 import Main from './Components/main'
+import LoaderComponent from './CommonComonents/loader/index.js';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const App = () => {
-  const myState = useSelector((state) => state.mulDiv);
-  const store = useStore()
-  console.log('store>>>>>>>>>>>>>>>>>', store,  ",<<<<<<<<<<<<<<<<<store.getstate>>>>>>>>>>>", store.getState())
-  console.log('myState>>>>>>>>>>>>>>>>>', myState)
-  const dispatch = useDispatch();
 
   return (
     <>
+      <LoaderComponent/>
       <Main/>
-      <h1>{myState?.multi}</h1>
-      <button onClick={() => dispatch({ type: "Divide", payload: 5 })}>/</button>
-      <button onClick={() => dispatch(Multiply())}>*</button>
-      <AppComponent />
+      <ToastContainer/>
     </>
   );
 };
