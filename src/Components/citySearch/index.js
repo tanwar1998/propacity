@@ -47,11 +47,10 @@ const CITY_LIST = [
 
 
 const Search = (props) => {
-  console.log('serah>>>>>>>>>>>>>>>>>', props)
   const [currentCity, setCurrentCity] = useState(CITY_LIST[0])
   const handleCityChange = (value)=>{
     setCurrentCity(value);
-    // props.getForecastData(value, props.store);
+    props.getForecastData(value, props.store);
   }
   useEffect(()=>{
     console.log('useeffec callled>>>>>>>')

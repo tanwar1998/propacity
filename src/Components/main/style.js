@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
     float: none;
   }
 
-  .sub-heading{
+  .sub-heading, .sub-heading2{
     text-align: left;
     padding: 0 15px;
 
@@ -17,6 +17,9 @@ export const MainContainer = styled.div`
       color: blue;
       cursor: pointer;
     }
+  }
+  .sub-heading2{
+    margin: 30px 0;
   }
 
 `;

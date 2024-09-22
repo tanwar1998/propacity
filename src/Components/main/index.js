@@ -10,7 +10,7 @@ const Forecast = lazy(() => import('../forecasts/index.js'));
 
 const App = (props) => {
   const dispatch = useDispatch();
-  const [forecast, setForecast] = useState(true)
+  const [forecast, setForecast] = useState(false)
 
   
 
@@ -49,12 +49,20 @@ const App = (props) => {
       </NavigationContainer>
 
       <div className='hor-row main-content'>
-          
-        <Weather store = {props.store}/>
-        {!forecast && <div className='hor-row sub-heading'>
-          <span onClick={displayForecast}>View Forecast?</span>
-          
+        {!props.store.data.weatherData?.location?.name && <div className='hor-row sub-heading2'>
+          Sorry! no data for the weather. Please try again after some time.
+
         </div>}
+
+        {props.store.data.weatherData?.location?.name && <>
+          <Weather 
+            store = {props.store}
+            />
+          {!forecast && <div className='hor-row sub-heading'>
+            <span onClick={displayForecast}>View Forecast?</span>
+            
+          </div>}
+        </>}
 
         <Suspense fallback={<div>Loading...</div>}>
           { forecast && <Forecast
