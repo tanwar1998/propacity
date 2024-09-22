@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### How to use the application
+
+This app is used to display weather information for 10 cities.
+
+To get information for a particular city, you can select the city from `Select city` `Search input`, provided in the navigation bar.
+The default city is set as `New York` of now.
+
+The `Forecast` component is hidden by default. To view the `Forecast` information for 5 days, click on `View Forecast?` text at bottom left.
+
+
+Also a `Toggle` button is provided at the navigation bar, for changing the temperature unit.
+Default unit is `Celcius`, but you can switch to `Fahrenheit` by the `toggle` button
+
+
