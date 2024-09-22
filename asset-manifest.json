@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/propacity/static/css/main.c846681b.css",
-    "main.js": "/propacity/static/js/main.63601f27.js",
-    "static/js/715.73211628.chunk.js": "/propacity/static/js/715.73211628.chunk.js",
+    "main.js": "/propacity/static/js/main.c5cc5a6b.js",
+    "static/js/715.bc84bf7b.chunk.js": "/propacity/static/js/715.bc84bf7b.chunk.js",
     "static/js/787.3e8dfecb.chunk.js": "/propacity/static/js/787.3e8dfecb.chunk.js",
     "index.html": "/propacity/index.html",
     "main.c846681b.css.map": "/propacity/static/css/main.c846681b.css.map",
-    "main.63601f27.js.map": "/propacity/static/js/main.63601f27.js.map",
-    "715.73211628.chunk.js.map": "/propacity/static/js/715.73211628.chunk.js.map",
+    "main.c5cc5a6b.js.map": "/propacity/static/js/main.c5cc5a6b.js.map",
+    "715.bc84bf7b.chunk.js.map": "/propacity/static/js/715.bc84bf7b.chunk.js.map",
     "787.3e8dfecb.chunk.js.map": "/propacity/static/js/787.3e8dfecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c846681b.css",
-    "static/js/main.63601f27.js"
+    "static/js/main.c5cc5a6b.js"
   ]
 }
